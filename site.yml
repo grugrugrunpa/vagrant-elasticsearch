@@ -1,0 +1,17 @@
+- hosts: all
+  tasks:
+   - name: install
+     yum: name=libselinux-python state=present
+
+   - name: disable selinux
+     selinux: state=disabled
+
+  roles:
+   - role: hswong3i.hostname
+   - role: geerlingguy.java
+     when: "ansible_os_family == 'RedHat'"
+     java_packages:
+      - java-1.8.0-openjdk
+
+- include: search.yml
+- include: httpd.yml

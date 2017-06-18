@@ -1,0 +1,7 @@
+[search]
+node01 ansible_host=192.168.33.51 ansible_ssh_private_key_file=.vagrant/machines/node01/virtualbox/private_key ansible_ssh_user=vagrant
+node02 ansible_host=192.168.33.52 ansible_ssh_private_key_file=.vagrant/machines/node02/virtualbox/private_key ansible_ssh_user=vagrant
+node03 ansible_host=192.168.33.53 ansible_ssh_private_key_file=.vagrant/machines/node03/virtualbox/private_key ansible_ssh_user=vagrant
+
+[httpd]
+httpd01 ansible_host=192.168.33.61 ansible_ssh_private_key_file=.vagrant/machines/httpd01/virtualbox/private_key ansible_ssh_user=vagrant

@@ -1,0 +1,7 @@
+- src: geerlingguy.apache
+- src: geerlingguy.elasticsearch
+- src: geerlingguy.java
+- src: geerlingguy.kibana
+- src: geerlingguy.logstash
+- src: hswong3i.hostname
+- src: git+https://github.com/grugrugrunpa/ansible-role-elasticsearch.git
