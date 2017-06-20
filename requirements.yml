@@ -5,3 +5,6 @@
 - src: geerlingguy.logstash
 - src: hswong3i.hostname
 - src: git+https://github.com/grugrugrunpa/ansible-role-elasticsearch.git
+- src: geerlingguy.mysql
+- src: dj-wasabi.zabbix-server
+- src: dj-wasabi.zabbix-agent

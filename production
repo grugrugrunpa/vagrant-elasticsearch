@@ -1,7 +1,12 @@
+[zabbix-server]
+zabbix-server01 ansible_host=192.168.33.41 ansible_ssh_private_key_file=.vagrant/machines/zabbix-server01/virtualbox/private_key ansible_ssh_user=vagrant
+
 [search]
-node01 ansible_host=192.168.33.51 ansible_ssh_private_key_file=.vagrant/machines/node01/virtualbox/private_key ansible_ssh_user=vagrant
-node02 ansible_host=192.168.33.52 ansible_ssh_private_key_file=.vagrant/machines/node02/virtualbox/private_key ansible_ssh_user=vagrant
-node03 ansible_host=192.168.33.53 ansible_ssh_private_key_file=.vagrant/machines/node03/virtualbox/private_key ansible_ssh_user=vagrant
+elastic01 ansible_host=192.168.33.51 ansible_ssh_private_key_file=.vagrant/machines/elastic01/virtualbox/private_key ansible_ssh_user=vagrant
+elastic02 ansible_host=192.168.33.52 ansible_ssh_private_key_file=.vagrant/machines/elastic02/virtualbox/private_key ansible_ssh_user=vagrant
+elastic03 ansible_host=192.168.33.53 ansible_ssh_private_key_file=.vagrant/machines/elastic03/virtualbox/private_key ansible_ssh_user=vagrant
 
 [httpd]
 httpd01 ansible_host=192.168.33.61 ansible_ssh_private_key_file=.vagrant/machines/httpd01/virtualbox/private_key ansible_ssh_user=vagrant
+httpd02 ansible_host=192.168.33.62 ansible_ssh_private_key_file=.vagrant/machines/httpd02/virtualbox/private_key ansible_ssh_user=vagrant
+httpd03 ansible_host=192.168.33.63 ansible_ssh_private_key_file=.vagrant/machines/httpd03/virtualbox/private_key ansible_ssh_user=vagrant

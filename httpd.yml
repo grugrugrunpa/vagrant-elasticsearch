@@ -1,7 +1,7 @@
 - hosts: httpd
   tasks:
-   - name: copy logstash apache conf.
-     copy: src=roles/httpd/files/ dest=/etc/logstash/conf.d/ owner=root group=root mode=0755
+   - name: copy files
+     copy: src=roles/httpd/files/ dest=/ owner=root group=root mode=0755
    - name: change mode on apache log directory.
      file:
        path: /var/log/httpd
